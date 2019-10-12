@@ -9,7 +9,7 @@ from calendar import timegm
 import os
 
 sentinel_file = "strava_sentinel_file"
-strava_api_key = 'afd90cd6d25c4c419cffb415aecaa8cd000737d3'
+strava_api_key = ''
 sentinel_valid_time = 3600
 page = 1
 history = 7
