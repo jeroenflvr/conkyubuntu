@@ -12,7 +12,7 @@ sentinel_file = "strava_sentinel_file"
 strava_api_key = ''
 sentinel_valid_time = 3600
 page = 1
-history = 7
+history = 0
 def store_sentinel(s):
   f = open(sentinel_file, "w")
   json.dump(s,f)
